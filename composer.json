@@ -1,0 +1,22 @@
+{
+  "name": "vine/wordpress",
+  "type": "wordpress-plugin",
+  "description": "Official Vine plugin for WordPress",
+  "homepage": "https://vine.co/",
+  "license": "MIT",
+  "keywords": ["vine","video","wordpress","plugin"],
+  "require": {
+    "php": ">=5.3.0",
+  },
+  "authors": [
+    {
+      "name": "Vine",
+      "homepage": "https://github.com/vine/wordpress/contributors"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vine\\": "src/Vine/"
+    }
+  }
+}
