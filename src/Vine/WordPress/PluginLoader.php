@@ -48,7 +48,7 @@ class PluginLoader {
 	 *
 	 * @var string
 	 */
-	const VERSION = '1.0.0';
+	const VERSION = '1.0.1';
 
 	/**
 	 * Bind plugin functionality to WordPress hooks and filters

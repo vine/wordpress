@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
-Official Vine plugin for WordPress. Easily embed Vine videos by pasting a URL into your post editor.
+Official Vine plugin for WordPress. Easily embed Vine videos by pasting a URL into your post editor. Requires PHP 5.3 or greater.
 
 == Description ==
 
@@ -15,11 +15,14 @@ Embed a Vine video by pasting a URL or Vine shortcode into your post editor. Bui
 
 The plugin automatically adjusts displayed Vine embeds to the content width of your theme. Vine's embed JavaScript is asynchronously loaded through WordPress' JavaScript resource manager for improved performance and extensibility.
 
-**Requires PHP 5.3** or newer to take advantage of namespaces and late static bindings.
+**Requires PHP 5.3** or greater to take advantage of namespaces and late static bindings.
 
 Developers can fork [our code repository on GitHub](https://github.com/vine/wordpress) and submit pull requests.
 
 == Changelog ==
+
+= 1.0.1 =
+* Display incompatibility notice if activated on a PHP 5.2 site
 
 = 1.0.0 =
 * Initial release
