@@ -6,7 +6,7 @@
 /*
 Plugin Name: Vine
 Plugin URI: https://vine.co/
-Description: Official Vine plugin for WordPress. Easily embed Vine videos by pasting a URL into your post editor.
+Description: Official Vine plugin for WordPress. Easily embed Vine videos by pasting a URL into your post editor. Requires PHP 5.3 or greater.
 Version: 1.0.1
 Author: Vine
 Author URI: https://vine.co/
@@ -65,7 +65,7 @@ require_once( dirname( __FILE__ ) . '/autoload.php' );
 
 add_action(
 	'plugins_loaded',
-	array( '\\Vine\\WordPress\\PluginLoader', 'init' ),
+	array( '\Vine\WordPress\PluginLoader', 'init' ),
 	1, // priority
 	0 // expected arguments
 );

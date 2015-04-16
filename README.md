@@ -7,7 +7,7 @@ The Vine plugin for WordPress replaces a Vine video URL or Vine macro with Vine 
 
 The Vine plugin adjusts Vine embed HTML to match the [$content_width](http://codex.wordpress.org/Content_Width) defined by your theme.
 
-Vine JavaScript loads asynchronously using the `vine-embed-js` registered script handle.
+Vine JavaScript loads asynchronously using the `vine-embed-js` registered script handle: an improvement over the standard oEmbed response combining HTML markup and script loading.
 
 see [readme.txt](readme.txt) for readme documentation compatible with the [WordPress plugin readme standard](https://wordpress.org/plugins/about/readme.txt). Release versions of this plugin are distributed through [the Vine listing in the WordPress plugin repository](https://wordpress.org/plugins/vine/).
 
