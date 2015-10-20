@@ -7,9 +7,11 @@ Stable tag: 1.0.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
-Official Vine plugin for WordPress. Easily embed Vine videos by pasting a URL into your post editor. Requires PHP 5.3 or greater.
+(deprecated) Official Vine plugin for WordPress. Features now included in Twitter plugin for WordPress. Requires PHP 5.3 or greater.
 
 == Description ==
+
+*This WordPress plugin has been deprecated.* The [Twitter plugin for WordPress](https://wordpress.org/plugins/twitter/) includes the latest support for Vine embeds among other features.
 
 Embed a Vine video by pasting a URL or Vine shortcode into your post editor. Built on top of the [Vine oEmbed API](https://dev.twitter.com/web/vine/oembed), delivering the most recent [Vine embed HTML](https://dev.twitter.com/web/vine/embed) without requiring any post edits.
 
